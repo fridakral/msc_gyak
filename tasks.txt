@@ -1,0 +1,40 @@
+﻿Szerintem csináljuk meg a balesetes appomat, nagyon egyszerű!
+
+Leírás:
+Egy app, amibe fel lehet venni magyarországi koordinátákat (ezt nagyon leegyszerűsítjük és Magyarország egy téglalap lesz).
+Az ország fel lesz osztva 10km^2-es kis négyzetekre. 
+Ezek után a felhasználó megadhat eseményeket (baleset), amiket felveszünk és eltárolunk.
+
+
+Objektumok:
+    
+    Ős baleset objektum:
+        -coordinate
+        -time
+        -személyi sérülés (boolean)
+        -fokozat (int)
+        
+        -calculateGrid(Coordinate) funkció, int column, int row
+    
+        Autóbaleset örökli a balesetet
+            -keletkezett kár
+            -felelős típus
+        
+        Motorbaleset örökli a balesetet
+            -keletkezett kár
+            -volt-e bukósisak (boolean)
+        
+        Tömegbaleset örökli a balesetet
+            -halottak száma
+            -sebesültek száma
+            
+            Vonatbaleset örökli a tömegbalesetet
+                -mennyit késik miatta a MÁV
+                -kisiklott-e
+
+Enumok
+    
+    FelelosTipus
+        Maganszemely
+        MAV
+        Vad
