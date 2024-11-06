@@ -11,7 +11,10 @@
 > git checkout main
 > git pull
 > git checkout frida
-> git pull origin main
+
+> git rebase main frida
+
+> git pull origin main 
 
 változtatás, fejlesztés
 
