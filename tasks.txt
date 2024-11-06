@@ -42,3 +42,5 @@ Enumok
         
 Bekérünk baleseteket, ami lehet minden fajtából. Autó(A), Motor(M), Tömeg(T), Vonat(V).
 List<Baleset> --> ebbe gyűjtjük össze a baleseteket.
+
+

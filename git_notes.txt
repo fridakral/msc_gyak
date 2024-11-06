@@ -1,0 +1,8 @@
+﻿> git clone url-to-repo
+
+> cd repo-name  //cd msc_gyak
+
+> git pull
+> git branch frida
+> git checkout frida
+
