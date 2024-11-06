@@ -6,3 +6,16 @@
 > git branch frida
 > git checkout frida
 
+-- frissíteni a local verziót:
+> git commit -m "ez egy commit a frissítés előtt"
+> git checkout main
+> git pull
+> git checkout frida
+> git pull origin main
+
+változtatás, fejlesztés
+
+> git add . //ha minden változtatást hozzá akarsz adni
+> git add git_notes.txt //csak az adott fileban lévő változtatásokat rakja fel
+
+
