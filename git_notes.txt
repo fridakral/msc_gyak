@@ -22,3 +22,14 @@ változtatás, fejlesztés
 > git add git_notes.txt //csak az adott fileban lévő változtatásokat rakja fel
 
 
+git branch
+//main-en kívül mindet lehet törölni:
+git branch -d <branchname>
+
+
+cd msc_gyak
+git pull
+git branch <branchname>
+git checkout <branchname>
+
+

@@ -11,8 +11,8 @@ Objektumok:
     Ős baleset objektum:
         -coordinate
         -time
-        -személyi sérülés (boolean)
-        -fokozat (int)
+        -személyi sérülés
+        -fokozat
         
         -calculateGrid(Coordinate) funkció, int column, int row
     
@@ -42,5 +42,6 @@ Enumok
         
 Bekérünk baleseteket, ami lehet minden fajtából. Autó(A), Motor(M), Tömeg(T), Vonat(V).
 List<Baleset> --> ebbe gyűjtjük össze a baleseteket.
+
 
 
