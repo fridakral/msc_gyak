@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MscGyak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f10f6d3e61b7c13f08b45cc71512ab712e60f268")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8603e3dd2d546a1c39983f671edabb8898fcccbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MscGyak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MscGyak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
