@@ -1,4 +1,3 @@
-
 using System;
 
 public class Baleset
@@ -24,7 +23,7 @@ public class Baleset
         Fokozat = fokozat;
     }
 
-    public int[] GridKalkulator()
+    public virtual int[] GridKalkulator()
     {
         return Koordinata;
     }
