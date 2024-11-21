@@ -41,3 +41,4 @@ artifacts/
 
 # Other
 **/appsettings*.json
+**/obj
