@@ -2,18 +2,23 @@
 
 using System;
 using System.Collections;
+using MscGyak.model;
 
 Console.WriteLine("Hello, World!");
 
 //Kipróbáltam a Baleset osztályt
 
-Baleset balesetObjektum = new Baleset();
-Baleset ujBaleset = new Baleset([232, 233]);
-Baleset baleset3 = new Baleset([232, 233], 2);
+MotorBaleset balesetObjektum = new MotorBaleset();
+MotorBaleset ujBaleset = new MotorBaleset([232, 233]);
+MotorBaleset baleset3 = new MotorBaleset([232, 233], 2);
+MotorBaleset baleset4 = new MotorBaleset (true);
 
 Console.WriteLine(balesetObjektum.Fokozat);
 Console.WriteLine(ujBaleset.Fokozat);
 Console.WriteLine(baleset3.Fokozat);
+Console.WriteLine (baleset4.Bukosisak);
+
+baleset4.GridKalkulator();
 
 Console.WriteLine(balesetObjektum.Datum);
 

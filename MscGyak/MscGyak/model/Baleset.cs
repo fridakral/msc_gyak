@@ -1,6 +1,6 @@
 using System;
 
-public class Baleset
+public abstract class Baleset
 {
     public int[] Koordinata;
     public DateTime Datum;
@@ -25,6 +25,7 @@ public class Baleset
 
     public virtual int[] GridKalkulator()
     {
+        Console.WriteLine("Ez egy ősosztálybeli baleset");
         return Koordinata;
     }
 }
